@@ -1,14 +1,12 @@
 name: verify
 
-# M1 check: unit tests + a real collection run from GitHub's network, plus the
-# GitHub Models catalog so model names can be picked from what actually exists.
+# M1 check: unit tests + a real collection run from GitHub's network.
 on:
   push:
   workflow_dispatch:
 
 permissions:
   contents: read
-  models: read
 
 jobs:
   verify:
@@ -26,12 +24,6 @@ jobs:
         run: |
           python -m ai_radar.collect --out out
           cat out/report.md >> "$GITHUB_STEP_SUMMARY"
-      - name: List GitHub Models catalog
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -o pipefail
-          python scripts/list_models.py | tee -a "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -5,7 +5,8 @@ practitioners, Hacker News, Hugging Face Papers and new GitHub repos, picks **on
 topic worth a week of study, and pushes it to Telegram with sources, prerequisites, a demo
 idea and a blog skeleton.
 
-Runs entirely on GitHub Actions and GitHub Models (free for public repos).
+Runs on GitHub Actions (free for public repos). The LLM provider for the weekly pick is
+chosen in M2: GitHub Models, the original choice, was retired on 2026-07-30.
 
 ## Status
 
