@@ -30,16 +30,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -sSf -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
-            https://models.github.ai/catalog/models -o out/models.json
-          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
-          import json
-          models = json.load(open("out/models.json"))
-          print("\n## GitHub Models catalog\n")
-          print("| id | rate limit tier |\n| --- | --- |")
-          for m in sorted(models, key=lambda m: m["id"]):
-              print(f"| {m['id']} | {m.get('rate_limit_tier', '')} |")
-          PY
+          set -o pipefail
+          python scripts/list_models.py | tee -a "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -17,11 +17,11 @@ rss:
   - {name: Eugene Yan, tier: core, url: "https://eugeneyan.com/rss/"}
   - {name: Chip Huyen, tier: core, url: "https://huyenchip.com/feed.xml"}
   - {name: Lilian Weng, tier: core, url: "https://lilianweng.github.io/index.xml"}
-  - {name: Latent Space, tier: core, url: "https://www.latent.space/feed"}
+  # Latent Space also carries the daily [AINews] digest of X / Reddit / Discord chatter,
+  # which covers the long tail Grok used to fill (news.smol.ai's own feed is stale).
+  - {name: Latent Space, tier: longtail, url: "https://www.latent.space/feed"}
   - {name: Interconnects, tier: core, url: "https://www.interconnects.ai/feed"}
-  # Long tail (X / Reddit / Discord digests)
-  - {name: AINews (smol.ai), tier: longtail, url: "https://news.smol.ai/rss.xml"}
   # Backend / distributed systems
-  - {name: Martin Kleppmann, tier: backend, url: "https://martin.kleppmann.com/feed.xml"}
+  - {name: Martin Kleppmann, tier: backend, url: "https://feeds.feedburner.com/martinkl"}
   - {name: Cloudflare Blog, tier: backend, url: "https://blog.cloudflare.com/rss/"}
   - {name: Netflix Tech Blog, tier: backend, url: "https://netflixtechblog.com/feed"}
