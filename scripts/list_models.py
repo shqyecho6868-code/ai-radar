@@ -10,10 +10,16 @@ resp = httpx.get(
     follow_redirects=True,
     timeout=30,
 )
-if resp.status_code != 200 or not resp.text.strip():
-    sys.exit(f"catalog request failed: HTTP {resp.status_code}: {resp.text[:300]!r}")
+try:
+    resp.raise_for_status()
+    models = resp.json()
+except ValueError as exc:
+    sys.exit(
+        f"catalog response is not JSON ({exc}): HTTP {resp.status_code}, "
+        f"content-type={resp.headers.get('content-type')!r}, final url={resp.url}, body={resp.content[:300]!r}"
+    )
 
 print("\n## GitHub Models catalog\n")
 print("| id | rate limit tier |\n| --- | --- |")
-for m in sorted(resp.json(), key=lambda m: m["id"]):
+for m in sorted(models, key=lambda m: m["id"]):
     print(f"| {m['id']} | {m.get('rate_limit_tier', '')} |")
