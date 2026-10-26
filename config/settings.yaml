@@ -13,3 +13,6 @@ github_repos:
   min_stars: 300
   topics: [llm, ai-agents, mcp, rag, llm-inference]
   max_items: 15
+aihot:
+  max_pages: 3
+  max_items: 40

@@ -18,7 +18,7 @@ from typing import Callable
 
 import yaml
 
-from .fetchers import github_repos, hf_papers, hn, rss
+from .fetchers import aihot, github_repos, hf_papers, hn, rss
 from .models import Item, normalize_url
 
 CONFIG = Path(__file__).resolve().parents[2] / "config"
@@ -65,19 +65,21 @@ def collect(cfg: dict, now: datetime | None = None) -> tuple[list[Item], list[So
     since = (now or datetime.now(UTC)) - timedelta(days=settings["lookback_days"])
     cap = settings["max_items_per_source"]
 
-    jobs: list[tuple[str, Callable[[], list[Item]]]] = [
-        (s["name"], lambda s=s: rss.fetch(s, since)) for s in cfg["sources"]["rss"]
+    jobs: list[tuple[str, Callable[[], list[Item]], int]] = [
+        (s["name"], lambda s=s: rss.fetch(s, since), cap) for s in cfg["sources"]["rss"]
     ]
     jobs += [
-        ("Hacker News", lambda: hn.fetch(settings["hn"], cfg["interests"]["hn_keywords"], since)),
-        ("Hugging Face Papers", lambda: hf_papers.fetch(settings["hf_papers"], since)),
-        ("GitHub new repos", lambda: github_repos.fetch(settings["github_repos"], since)),
+        ("Hacker News", lambda: hn.fetch(settings["hn"], cfg["interests"]["hn_keywords"], since), cap),
+        ("Hugging Face Papers", lambda: hf_papers.fetch(settings["hf_papers"], since), cap),
+        ("GitHub new repos", lambda: github_repos.fetch(settings["github_repos"], since), cap),
+        # AIHOT is already curated across many outlets, so it gets its own larger cap.
+        ("AIHOT", lambda: aihot.fetch(settings["aihot"], since), settings["aihot"]["max_items"]),
     ]
 
     items: list[Item] = []
     results: list[SourceResult] = []
-    for name, fn in jobs:
-        got, result = _run(name, fn, cap)
+    for name, fn, limit in jobs:
+        got, result = _run(name, fn, limit)
         items += got
         results.append(result)
     return dedup(items), results

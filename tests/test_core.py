@@ -70,3 +70,19 @@ def test_report_lists_failures_on_one_line():
     report = render_report([_item("https://a.com")], [SourceResult("X", False, 0, 0.1, "boom"), SourceResult("Y", True, 1, 0.2)])
     assert "| X | FAILED: boom | 0 | 0.1 |" in report
     assert "1/2 sources" in report
+
+
+def test_aihot_prefers_english_title_and_falls_back_to_discovered_time():
+    from ai_radar.fetchers import aihot
+
+    rows = [
+        {"title": "标题", "title_en": "Title", "url": "https://x.com/a/status/1", "source": "X：A (@a)", "publishedAt": None,
+         "discoveredAt": "2026-10-24T10:00:00Z", "summary": "摘要", "category": "tip", "score": 82},
+        {"title": "无链接", "url": None, "discoveredAt": "2026-10-24T10:00:00Z"},
+    ]
+    items = aihot.parse_items(rows)
+    assert len(items) == 1
+    assert items[0].title == "Title"
+    assert items[0].published.isoformat() == "2026-10-24T10:00:00+00:00"
+    assert items[0].extra["title_zh"] == "标题"
+    assert aihot._page({"items": rows, "nextCursor": "c2"})[1] == "c2"
