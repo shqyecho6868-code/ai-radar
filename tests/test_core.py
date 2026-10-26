@@ -103,9 +103,10 @@ def test_aihot_v1_rows_take_link_from_links_and_prefer_original_title():
 
     row = {"title": "中文标题", "originalTitle": "Original title", "publishedAt": "2026-10-24T10:00:00Z",
            "links": {"aihot": "https://aihot.news/s/1", "original": "https://example.com/post"},
-           "summary": "摘要", "reason": "推荐理由", "score": 70, "source": "X：A"}
+           "summary": "摘要", "reason": "推荐理由", "score": 70, "source": {"name": "X：A (@a)"}}
     item = aihot.parse_items([row])[0]
     assert item.url == "https://example.com/post"
     assert item.title == "Original title"
     assert item.summary == "摘要 推荐理由"
+    assert item.source == "AIHOT · X：A (@a)"
     assert aihot._url({"links": [{"href": "https://a.com"}]}) == "https://a.com"

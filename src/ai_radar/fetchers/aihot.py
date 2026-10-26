@@ -39,6 +39,11 @@ def _url(row: dict) -> str | None:
     return _first_url(row.get("url")) or _first_url(row.get("links")) or _first_url(row.get("attribution"))
 
 
+def _source_name(source) -> str:
+    # v1 sends {"name": "X：Rohan Paul (@rohanpaul_ai)"}; legacy sent the plain string.
+    return source.get("name", "") if isinstance(source, dict) else source or ""
+
+
 def parse_items(rows: list[dict]) -> list[Item]:
     items = []
     for r in rows:
@@ -51,7 +56,7 @@ def parse_items(rows: list[dict]) -> list[Item]:
                 # originalTitle is the source-language title (often English); title is AIHOT's Chinese one.
                 title=r.get("originalTitle") or r.get("title_en") or r.get("title", ""),
                 url=url,
-                source=f"AIHOT · {r.get('source', '')}".rstrip(" ·"),
+                source=f"AIHOT · {_source_name(r.get('source'))}".rstrip(" ·"),
                 kind="aihot",
                 tier="longtail",
                 published=_time(r),
