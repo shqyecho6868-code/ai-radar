@@ -1,0 +1,47 @@
+name: verify
+
+# M1 check: unit tests + a real collection run from GitHub's network, plus the
+# GitHub Models catalog so model names can be picked from what actually exists.
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  models: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: pytest -q
+      - name: Collect candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m ai_radar.collect --out out
+          cat out/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: List GitHub Models catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sSf -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
+            https://models.github.ai/catalog/models -o out/models.json
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json
+          models = json.load(open("out/models.json"))
+          print("\n## GitHub Models catalog\n")
+          print("| id | rate limit tier |\n| --- | --- |")
+          for m in sorted(models, key=lambda m: m["id"]):
+              print(f"| {m['id']} | {m.get('rate_limit_tier', '')} |")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: candidates
+          path: out/

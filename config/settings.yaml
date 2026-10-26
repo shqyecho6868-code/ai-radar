@@ -1,0 +1,15 @@
+# Collection window. Weekly brief runs Sunday, so look back a little over a week
+# to tolerate a late or skipped run.
+lookback_days: 8
+# Per-source caps keep one noisy source from flooding the candidate pool.
+max_items_per_source: 15
+hn:
+  min_points: 150
+  max_hits: 100
+hf_papers:
+  min_upvotes: 20
+  max_items: 15
+github_repos:
+  min_stars: 300
+  topics: [llm, ai-agents, mcp, rag, llm-inference]
+  max_items: 15

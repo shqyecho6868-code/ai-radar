@@ -1,0 +1,39 @@
+# Keywords used only to prefilter HN titles (other sources are already on-topic).
+# Matching is case-insensitive on word boundaries.
+hn_keywords:
+  - llm
+  - llms
+  - agent
+  - agents
+  - agentic
+  - claude
+  - anthropic
+  - openai
+  - gpt
+  - gemini
+  - deepmind
+  - eval
+  - evals
+  - rag
+  - mcp
+  - inference
+  - context window
+  - context engineering
+  - prompt
+  - fine-tuning
+  - transformer
+  - embedding
+  - embeddings
+  - vector
+  - token
+  - tokens
+  - model
+  - ai
+  - distributed
+  - database
+  - postgres
+  - kafka
+  - consensus
+  - gpu
+  - kv cache
+  - vllm
