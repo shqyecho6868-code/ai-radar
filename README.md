@@ -6,7 +6,7 @@ Face Papers and new GitHub repos, picks **one** durable topic worth a week of st
 pushes it to Telegram. The full plan (sources, prerequisites, a 1-hour and a 2-3 hour demo,
 a blog skeleton, self-check questions) is archived in [`weekly/`](weekly/).
 
-Runs on GitHub Actions with the Gemini API free tier: no server, no cost.
+Runs on GitHub Actions with one Claude API call per week: no server, a few cents to dimes per week.
 
 ## How it works
 
@@ -20,12 +20,13 @@ invented.
 
 ## Setup
 
-1. **Gemini key**: create one at [Google AI Studio](https://aistudio.google.com/apikey).
+1. **Claude API key**: add credit and create a key at [platform.claude.com](https://platform.claude.com/settings/keys).
+   One weekly call on Claude Opus 5.5 costs roughly $0.1-0.3.
 2. **Telegram bot**: message [@BotFather](https://t.me/BotFather), send `/newbot`, keep the
    token. Send any message to your new bot, then open
    `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser and copy `chat.id`.
 3. In the repo: Settings -> Secrets and variables -> Actions -> New repository secret:
-   `GEMINI_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+   `ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
 4. Actions -> weekly -> Run workflow (dry run is on by default) to check the output.
 
 ## Steering it
@@ -45,5 +46,5 @@ invented.
 pip install -e ".[dev]"
 pytest
 python -m ai_radar.collect --out out          # candidate pool + per-source report
-GEMINI_API_KEY=... python -m ai_radar.weekly --dry-run --force   # writes out/<week>.md
+ANTHROPIC_API_KEY=... python -m ai_radar.weekly --dry-run --force   # writes out/<week>.md
 ```

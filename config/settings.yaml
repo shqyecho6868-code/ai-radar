@@ -23,10 +23,10 @@ timezone: America/Los_Angeles
 # cover daylight saving; the first run at or after this hour publishes).
 publish_hour: 8
 llm:
-  # Gemini API, OpenAI-compatible endpoint, free tier. Key from Google AI Studio.
-  base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
-  model: "gemini-3.8-flash"
-  # Tried in order when the main model stays overloaded (503) or unavailable.
-  fallback_models: ["gemini-3.7-flash", "gemini-3.6-flash"]
-  api_key_env: GEMINI_API_KEY
-  temperature: 0.4
+  # Claude API (Anthropic). Key from https://platform.claude.com, stored as repo secret.
+  model: "claude-opus-5-5"
+  effort: high
+  max_tokens: 32000
+  # SDK retries on connection errors, 429 and 5xx; after that the run fails and Telegram says so.
+  max_retries: 2
+  api_key_env: ANTHROPIC_API_KEY

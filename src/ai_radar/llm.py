@@ -1,56 +1,44 @@
-"""Minimal chat-completion client for any OpenAI-compatible endpoint.
+"""One weekly call to the Claude API (Anthropic SDK).
 
-Default provider is the Gemini API's OpenAI-compatible endpoint (free tier).
-Switching provider means changing `llm` in settings.yaml and the key's env var.
+Settings live under `llm` in settings.yaml; the key comes from ANTHROPIC_API_KEY.
 """
 from __future__ import annotations
 
 import os
-import time
 
-import httpx
-
-RETRY_STATUS = {429, 500, 502, 503, 504}
+import anthropic
 
 
 class LLMError(RuntimeError):
     pass
 
 
-def chat(cfg: dict, system: str, user: str, *, retries: int = 4) -> str:
-    """Try the configured model, then each fallback model, before giving up."""
-    errors = []
-    for model in [cfg["model"], *cfg.get("fallback_models", [])]:
-        try:
-            return _chat_once(cfg, model, system, user, retries)
-        except LLMError as exc:
-            errors.append(f"{model}: {exc}")
-    raise LLMError(" | ".join(errors))
-
-
-def _chat_once(cfg: dict, model: str, system: str, user: str, retries: int) -> str:
-    key = os.environ.get(cfg["api_key_env"])
+def chat(cfg: dict, system: str, user: str) -> str:
+    key_env = cfg.get("api_key_env", "ANTHROPIC_API_KEY")
+    key = os.environ.get(key_env)
     if not key:
-        raise LLMError(f"missing env var {cfg['api_key_env']}")
-    body = {
-        "model": model,
-        "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-        "temperature": cfg.get("temperature", 0.4),
-    }
-    delay = 5.0
-    for attempt in range(retries + 1):
-        resp = httpx.post(
-            cfg["base_url"].rstrip("/") + "/chat/completions",
-            headers={"Authorization": f"Bearer {key}"},
-            json=body,
-            timeout=300,
-        )
-        if resp.status_code in RETRY_STATUS and attempt < retries:
-            # Free tiers rate-limit per minute and shed load with 503s; back off and retry.
-            time.sleep(max(delay, float(resp.headers.get("retry-after") or 0)))
-            delay *= 2
-            continue
-        if resp.status_code != 200:
-            raise LLMError(f"HTTP {resp.status_code}: {' '.join(resp.text.split())[:300]}")
-        return resp.json()["choices"][0]["message"]["content"]
-    raise LLMError("unreachable")
+        raise LLMError(f"missing env var {key_env}")
+    # The SDK retries connection errors, 429 and 5xx itself; max_retries caps that.
+    client = anthropic.Anthropic(api_key=key, max_retries=cfg.get("max_retries", 2))
+    try:
+        # Streaming keeps a long generation from hitting the HTTP read timeout.
+        with client.beta.messages.stream(
+            model=cfg["model"],
+            max_tokens=cfg.get("max_tokens", 32000),
+            system=system,
+            messages=[{"role": "user", "content": user}],
+            output_config={"effort": cfg.get("effort", "high")},
+            # If a safety classifier declines, the API reruns on a fallback model.
+            betas=["server-side-fallback-2026-07-01"],
+            fallbacks="default",
+        ) as stream:
+            msg = stream.get_final_message()
+    except anthropic.APIStatusError as exc:
+        raise LLMError(f"HTTP {exc.status_code}: {' '.join(str(exc.message).split())[:300]}") from exc
+    except anthropic.APIError as exc:
+        raise LLMError(f"{type(exc).__name__}: {exc}") from exc
+    if msg.stop_reason == "refusal":
+        raise LLMError(f"refused: {msg.stop_details}")
+    if msg.stop_reason == "max_tokens":
+        raise LLMError("output hit max_tokens")
+    return "".join(b.text for b in msg.content if b.type == "text")
