@@ -1,0 +1,70 @@
+name: weekly
+
+on:
+  schedule:
+    # Sunday 08:00 Seattle. Cron is UTC only, so fire at both offsets; the script
+    # skips runs before 08:00 local and weeks already published (PDT -> 15:17, PST -> 16:17).
+    - cron: "17 15 * * 0"
+    - cron: "17 16 * * 0"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish now, ignoring time and already-published checks"
+        type: boolean
+        default: false
+      dry_run:
+        description: "Generate only: no Telegram, no commit (result in the run's artifact)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Generate and publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          args=""
+          if [ "${{ inputs.force }}" = "true" ]; then args="$args --force"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then args="$args --dry-run"; fi
+          python -m ai_radar.weekly $args
+      - name: Commit archive and state
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git add weekly data topic-queue.md
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "ai-radar[bot]"
+          git config user.email "ai-radar@users.noreply.github.com"
+          git commit -m "Weekly brief $(date -u +%F)"
+          git push
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.dry_run == true }}
+        with:
+          name: weekly-dry-run
+          path: out/
+      - name: Failure notice
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -n "$TELEGRAM_BOT_TOKEN" ] || exit 0
+          curl -s -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠️ AI Radar weekly run failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

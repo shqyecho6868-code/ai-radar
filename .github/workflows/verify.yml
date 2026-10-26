@@ -24,6 +24,14 @@ jobs:
         run: |
           python -m ai_radar.collect --out out
           cat out/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: List Gemini models available to the key
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          [ -n "$GEMINI_API_KEY" ] || { echo "GEMINI_API_KEY not set, skipping"; exit 0; }
+          curl -sSf -H "x-goog-api-key: $GEMINI_API_KEY" \
+            "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200" \
+            | python -c "import json,sys; [print(m['name']) for m in json.load(sys.stdin)['models'] if 'generateContent' in m.get('supportedGenerationMethods', [])]"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -16,3 +16,15 @@ github_repos:
 aihot:
   max_pages: 3
   max_items: 40
+
+# Weekly brief
+timezone: America/Los_Angeles
+# Scheduled runs before this local hour are skipped (cron fires at two UTC times to
+# cover daylight saving; the first run at or after this hour publishes).
+publish_hour: 8
+llm:
+  # Gemini API, OpenAI-compatible endpoint, free tier. Key from Google AI Studio.
+  base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
+  model: "gemini-2.5-flash"
+  api_key_env: GEMINI_API_KEY
+  temperature: 0.4
