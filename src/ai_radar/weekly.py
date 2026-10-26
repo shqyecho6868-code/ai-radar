@@ -107,6 +107,8 @@ def render(week: str, meta: dict, body: str, by_id: dict[str, Item], results: li
     sources = [link(n, "Source", by_id[i]) for n, i in enumerate(meta["source_ids"], 1)]
     also = [link(n, "Also", by_id[i]) for n, i in enumerate(meta["also_ids"], 1)]
     failed = [r.name for r in results if not r.ok]
+    # The model sometimes adds its own H1; ours already carries the week and topic.
+    body = re.sub(r"\A\s*# [^\n]*\n", "", body)
     parts = [
         f"# AI Radar · {week} · {meta['topic_en']}",
         f"{meta.get('topic_zh', '')} · 难度：{meta.get('difficulty', '?')} · 耐久度 {'★' * int(meta.get('durability', 0))}",

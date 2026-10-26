@@ -89,6 +89,13 @@ def test_render_links_sources_and_lists_failed_sources():
     assert "_1/2 sources ok; failed: HN_" in out
 
 
+def test_render_drops_model_h1():
+    a = _item("https://a.com", "Alpha")
+    meta = {"topic_en": "Topic", "source_ids": [a.key], "also_ids": []}
+    out = render("2026-W44", meta, "# AI Radar · Topic\n\n## What & Why\nx", {a.key: a}, [])
+    assert out.count("\n# ") + out.startswith("# ") == 1
+
+
 def test_section_extracts_until_next_heading():
     body = "## 上周回顾\nlast\n\n## What & Why\nwhy text\n\n## Demo\nsteps"
     assert section(body, "What & Why") == "why text"
