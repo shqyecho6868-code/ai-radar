@@ -45,6 +45,11 @@ def _page(body) -> tuple[list[dict], str | None]:
     if isinstance(body, list):
         return body, None
     rows = body.get("items") or body.get("data") or []
+    if isinstance(rows, dict):  # {"data": {"items": [...], "nextCursor": ...}}
+        return _page(rows)
+    if not rows and body:
+        # An unexpected shape would otherwise look like an empty week.
+        raise ValueError(f"unrecognized AIHOT response, keys: {sorted(body)[:10]}")
     return rows, body.get("nextCursor") or body.get("next_cursor")
 
 
@@ -62,5 +67,8 @@ def fetch(cfg: dict, since: datetime) -> list[Item]:
             rows += page
             if not cursor:
                 break
-    items = [i for i in parse_items(rows) if i.published >= since]
+    items = parse_items(rows)
+    if rows and not items:
+        raise ValueError(f"AIHOT items had no usable rows, first row keys: {sorted(rows[0])[:15]}")
+    items = [i for i in items if i.published >= since]
     return sorted(items, key=lambda i: i.signal, reverse=True)[: cfg["max_items"]]

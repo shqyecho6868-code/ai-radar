@@ -86,3 +86,13 @@ def test_aihot_prefers_english_title_and_falls_back_to_discovered_time():
     assert items[0].published.isoformat() == "2026-10-24T10:00:00+00:00"
     assert items[0].extra["title_zh"] == "标题"
     assert aihot._page({"items": rows, "nextCursor": "c2"})[1] == "c2"
+
+
+def test_aihot_page_handles_nested_data_and_rejects_unknown_shape():
+    import pytest
+
+    from ai_radar.fetchers import aihot
+
+    assert aihot._page({"data": {"items": [{"a": 1}], "nextCursor": "n"}}) == ([{"a": 1}], "n")
+    with pytest.raises(ValueError, match="unrecognized"):
+        aihot._page({"results": [{"a": 1}]})
