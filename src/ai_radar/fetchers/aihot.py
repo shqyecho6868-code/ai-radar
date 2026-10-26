@@ -20,20 +20,42 @@ def _time(row: dict) -> datetime:
     return datetime.fromisoformat(raw.replace("Z", "+00:00"))
 
 
+def _first_url(value) -> str | None:
+    if isinstance(value, str):
+        return value if value.startswith("http") else None
+    if isinstance(value, dict):
+        # Prefer the original article over AIHOT's own reading page.
+        for key in ("original", "source", "canonical", "url", "href"):
+            if url := _first_url(value.get(key)):
+                return url
+        return next((u for v in value.values() if (u := _first_url(v))), None)
+    if isinstance(value, list):
+        return next((u for v in value if (u := _first_url(v))), None)
+    return None
+
+
+def _url(row: dict) -> str | None:
+    """v1 rows carry links in `links`; legacy rows had a top-level `url`."""
+    return _first_url(row.get("url")) or _first_url(row.get("links")) or _first_url(row.get("attribution"))
+
+
 def parse_items(rows: list[dict]) -> list[Item]:
     items = []
     for r in rows:
-        if not r.get("url"):
+        url = _url(r)
+        if not url:
             continue
+        summary = " ".join(x for x in (r.get("summary"), r.get("reason")) if x)
         items.append(
             Item(
-                title=r.get("title_en") or r.get("title", ""),
-                url=r["url"],
+                # originalTitle is the source-language title (often English); title is AIHOT's Chinese one.
+                title=r.get("originalTitle") or r.get("title_en") or r.get("title", ""),
+                url=url,
                 source=f"AIHOT · {r.get('source', '')}".rstrip(" ·"),
                 kind="aihot",
                 tier="longtail",
                 published=_time(r),
-                summary=(r.get("summary") or "")[:500],
+                summary=summary[:500],
                 signal=int(r.get("score") or 0),
                 extra={"title_zh": r.get("title"), "category": r.get("category"), "permalink": r.get("permalink")},
             )
@@ -69,6 +91,6 @@ def fetch(cfg: dict, since: datetime) -> list[Item]:
                 break
     items = parse_items(rows)
     if rows and not items:
-        raise ValueError(f"AIHOT items had no usable rows, first row keys: {sorted(rows[0])[:15]}")
+        raise ValueError(f"AIHOT rows have no recognizable link, sample links: {rows[0].get('links')!r}"[:180])
     items = [i for i in items if i.published >= since]
     return sorted(items, key=lambda i: i.signal, reverse=True)[: cfg["max_items"]]

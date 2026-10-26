@@ -96,3 +96,16 @@ def test_aihot_page_handles_nested_data_and_rejects_unknown_shape():
     assert aihot._page({"data": {"items": [{"a": 1}], "nextCursor": "n"}}) == ([{"a": 1}], "n")
     with pytest.raises(ValueError, match="unrecognized"):
         aihot._page({"results": [{"a": 1}]})
+
+
+def test_aihot_v1_rows_take_link_from_links_and_prefer_original_title():
+    from ai_radar.fetchers import aihot
+
+    row = {"title": "中文标题", "originalTitle": "Original title", "publishedAt": "2026-10-24T10:00:00Z",
+           "links": {"aihot": "https://aihot.news/s/1", "original": "https://example.com/post"},
+           "summary": "摘要", "reason": "推荐理由", "score": 70, "source": "X：A"}
+    item = aihot.parse_items([row])[0]
+    assert item.url == "https://example.com/post"
+    assert item.title == "Original title"
+    assert item.summary == "摘要 推荐理由"
+    assert aihot._url({"links": [{"href": "https://a.com"}]}) == "https://a.com"
