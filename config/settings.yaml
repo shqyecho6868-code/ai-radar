@@ -25,6 +25,6 @@ publish_hour: 8
 llm:
   # Gemini API, OpenAI-compatible endpoint, free tier. Key from Google AI Studio.
   base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
-  model: "gemini-2.5-flash"
+  model: "gemini-3.8-flash"
   api_key_env: GEMINI_API_KEY
   temperature: 0.4
