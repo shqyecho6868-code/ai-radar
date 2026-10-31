@@ -1,0 +1,27 @@
+# RSS/Atom feeds. Edit freely; no code change needed.
+# tier: core = AI engineering, backend = systems/backend, longtail = aggregators that
+# cover X/Reddit/Discord chatter (replaces the Grok/X role).
+rss:
+  # Labs (Anthropic has no official RSS; community feeds from Olshansk/rss-feeds, hourly)
+  - {name: Anthropic Engineering, tier: core, url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"}
+  - {name: Anthropic Research, tier: core, url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"}
+  - {name: Anthropic News, tier: core, url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"}
+  - {name: OpenAI News + Developer Blog, tier: core, url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_main.xml"}
+  - {name: Google DeepMind Blog, tier: core, url: "https://deepmind.google/blog/rss.xml"}
+  - {name: Google Developers Blog AI, tier: core, url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_google_ai.xml"}
+  - {name: Cursor Blog, tier: core, url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml"}
+  - {name: Thinking Machines Lab, tier: core, url: "https://thinkingmachines.ai/blog/index.xml"}
+  # Practitioners
+  - {name: Simon Willison, tier: core, url: "https://simonwillison.net/atom/entries/"}
+  - {name: Hamel Husain, tier: core, url: "https://hamel.dev/index.xml"}
+  - {name: Eugene Yan, tier: core, url: "https://eugeneyan.com/rss/"}
+  - {name: Chip Huyen, tier: core, url: "https://huyenchip.com/feed.xml"}
+  - {name: Lilian Weng, tier: core, url: "https://lilianweng.github.io/index.xml"}
+  # Latent Space also carries the daily [AINews] digest of X / Reddit / Discord chatter,
+  # which covers the long tail Grok used to fill (news.smol.ai's own feed is stale).
+  - {name: Latent Space, tier: longtail, url: "https://www.latent.space/feed"}
+  - {name: Interconnects, tier: core, url: "https://www.interconnects.ai/feed"}
+  # Backend / distributed systems
+  - {name: Martin Kleppmann, tier: backend, url: "https://feeds.feedburner.com/martinkl"}
+  - {name: Cloudflare Blog, tier: backend, url: "https://blog.cloudflare.com/rss/"}
+  - {name: Netflix Tech Blog, tier: backend, url: "https://netflixtechblog.com/feed"}
