@@ -1,18 +1,16 @@
 # AI Radar
 
-A weekly AI learning brief. Every Sunday it collects the past week's posts from AI labs,
-practitioners, Hacker News, Hugging Face Papers and new GitHub repos, picks **one** durable
-topic worth a week of study, and pushes it to Telegram with sources, prerequisites, a demo
-idea and a blog skeleton.
+The fetch half of a weekly AI learning loop. Every Sunday a GitHub Action collects the past
+week's posts from AI labs, practitioners, Hacker News, Hugging Face Papers, new GitHub repos
+and AIHOT (which covers long-form posts on X), dedups them and commits the pool to
+`pool/<ISO week>/`. No LLM call, no cost.
 
-Runs on GitHub Actions (free for public repos). The LLM provider for the weekly pick is
-chosen in M2: GitHub Models, the original choice, was retired on 2026-07-30.
+The study doc itself is written in a Claude project: it reads that week's pool, the learner's
+progress and feedback, and picks the next step of a progressive curriculum. The pool keeps it
+current; it is not a news digest.
 
-## Status
-
-- [x] M1: collection from all sources (`python -m ai_radar.collect`)
-- [ ] M2: weekly pick with one strong-model call, Telegram delivery, Markdown archive
-- [ ] M3: Sunday schedule and failure notice
+An earlier fully automated version (Claude API writes the brief, Telegram delivery) is kept on
+the `m2-weekly` branch.
 
 ## Run locally
 
@@ -24,3 +22,5 @@ python -m ai_radar.collect --out out   # writes out/candidates.json and out/repo
 
 Sources live in `config/sources.yaml`; thresholds in `config/settings.yaml`. Changing
 either needs no code change.
+
+Output: `pool/<week>/candidates.json` (the pool) and `pool/<week>/report.md` (per-source status).
