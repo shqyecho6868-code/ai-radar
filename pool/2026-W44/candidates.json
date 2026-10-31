@@ -1,0 +1,2024 @@
+[
+  {
+    "title": "Early progress on accelerating drug development with Claude",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development",
+    "source": "Anthropic Research",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [
+      "Anthropic News"
+    ],
+    "extra": {},
+    "id": "001110b136cd"
+  },
+  {
+    "title": "How AI agents shape experts’ judgment calls",
+    "url": "https://www.anthropic.com/research/agents-judgment-calls",
+    "source": "Anthropic Research",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of two defensible options the agent would favor. Analysts mostly went with the agent’s side, and few named the agent as a reason afterward.",
+    "tier": "core",
+    "signal": 84,
+    "also_on": [
+      "AIHOT · Anthropic：Research（发表成果 · 网页） (84)"
+    ],
+    "extra": {},
+    "id": "919400624d6d"
+  },
+  {
+    "title": "AI for Science expands to foundations and research institutions",
+    "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+    "source": "Anthropic News",
+    "kind": "rss",
+    "published": "2026-10-28T00:00:00+00:00",
+    "summary": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "c517821d0281"
+  },
+  {
+    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "source": "Anthropic News",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "31f854764086"
+  },
+  {
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "source": "Anthropic News",
+    "kind": "rss",
+    "published": "2026-10-26T00:00:00+00:00",
+    "summary": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "8a77e646571b"
+  },
+  {
+    "title": "Making it easier for websites to express AI training preferences",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-30T09:30:00+00:00",
+    "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "25cc4c9bb2e3"
+  },
+  {
+    "title": "Community safety report and new protections for teens",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-30T09:00:00+00:00",
+    "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "c7606af40dbb"
+  },
+  {
+    "title": "Fair use benefits everyone",
+    "url": "https://openai.com/index/fair-use-benefits-everyone",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-30T00:00:00+00:00",
+    "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "d2282bcce162"
+  },
+  {
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "url": "https://openai.com/index/updated-model-spec",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-29T17:00:00+00:00",
+    "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "7bf0065ceb16"
+  },
+  {
+    "title": "How we detect frontier model misalignment",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-29T09:00:00+00:00",
+    "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "d28967fce9c6"
+  },
+  {
+    "title": "How Ropes & Gray is developing AI for transactional diligence",
+    "url": "https://openai.com/index/ropes-gray-ai-diligence",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-29T07:00:00+00:00",
+    "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "2d9928289658"
+  },
+  {
+    "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+    "url": "https://openai.com/index/credit-saison",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-29T00:00:00+00:00",
+    "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "6750c2461412"
+  },
+  {
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-28T13:15:00+00:00",
+    "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "75e2017ed4c5"
+  },
+  {
+    "title": "The future of the firm",
+    "url": "https://openai.com/index/the-future-of-the-firm",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-28T10:00:00+00:00",
+    "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "0dc3cf0b7c98"
+  },
+  {
+    "title": "Legora is building the agentic operating system for legal work",
+    "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-28T09:30:00+00:00",
+    "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "2fc8e689e413"
+  },
+  {
+    "title": "Legora is building the agentic operating system for legal work",
+    "url": "https://openai.com/index/legora",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-28T09:30:00+00:00",
+    "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "41c97fe8dc29"
+  },
+  {
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-27T07:00:00+00:00",
+    "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "a3a879144b29"
+  },
+  {
+    "title": "How Check Point accelerates vulnerability research with Daybreak",
+    "url": "https://openai.com/index/check-point-daybreak",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "8cb333260a17"
+  },
+  {
+    "title": "Using Codex for education at Dagster Labs",
+    "url": "https://developers.openai.com/blog/codex-for-documentation-dagster",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "Learn how Dagster uses Codex in their open-source projects to accelerate documentation, translate content across mediums, and even measure how complete their docs are.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "938e2958153c"
+  },
+  {
+    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+    "url": "https://openai.com/index/greptile-code-review-codex-astra",
+    "source": "OpenAI News + Developer Blog",
+    "kind": "rss",
+    "published": "2026-10-26T22:00:00+00:00",
+    "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "250e5d8f3024"
+  },
+  {
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "source": "Google DeepMind Blog",
+    "kind": "rss",
+    "published": "2026-10-28T17:00:58+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "34b0bf3f94c3"
+  },
+  {
+    "title": "Genie 4: A new generation of world simulation",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "source": "Google DeepMind Blog",
+    "kind": "rss",
+    "published": "2026-10-27T16:01:38+00:00",
+    "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "5ef94984dce4"
+  },
+  {
+    "title": "Build Generative UI Apps with A2UI & CopilotKit Agents",
+    "url": "https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/",
+    "source": "Google Developers Blog AI",
+    "kind": "rss",
+    "published": "2026-10-29T00:00:00+00:00",
+    "summary": "See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "b0d16b78d77a"
+  },
+  {
+    "title": "Smaller apps and faster GPU inference with LiteRT in Google Play services",
+    "url": "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/",
+    "source": "Google Developers Blog AI",
+    "kind": "rss",
+    "published": "2026-10-28T00:00:00+00:00",
+    "summary": "LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "0e6a065233b2"
+  },
+  {
+    "title": "Hill-Climbing Agent Quality with Agents CLI Evaluation",
+    "url": "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/",
+    "source": "Google Developers Blog AI",
+    "kind": "rss",
+    "published": "2026-10-28T00:00:00+00:00",
+    "summary": "This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes. Developers will also learn how to integrate nightly scheduled runs with threshold-based alerting to track quality over time.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "65a08b362ab4"
+  },
+  {
+    "title": "Fast, reliable A2UI, with swappable inference formats",
+    "url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+    "source": "Google Developers Blog AI",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generativ",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "f515afb7dcdd"
+  },
+  {
+    "title": "Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype",
+    "url": "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/",
+    "source": "Google Developers Blog AI",
+    "kind": "rss",
+    "published": "2026-10-27T00:00:00+00:00",
+    "summary": "This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "39cd6fa98e8c"
+  },
+  {
+    "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
+    "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "source": "Cursor Blog",
+    "kind": "rss",
+    "published": "2026-10-29T12:00:00+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 81,
+    "also_on": [
+      "AIHOT · Cursor Blog (81)"
+    ],
+    "extra": {},
+    "id": "f5c413d73956"
+  },
+  {
+    "title": "The October inflection point for vibe game development",
+    "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+    "source": "Simon Willison",
+    "kind": "rss",
+    "published": "2026-10-28T13:55:15+00:00",
+    "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones Pumpkin Farmer, aka Quarter Sun Cove Four times as insulting What happens if someone actually puts t",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "d63165261460"
+  },
+  {
+    "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+    "url": "https://latent.space/p/arca/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-31T16:05:00+00:00",
+    "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "18eadc7cf156"
+  },
+  {
+    "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+    "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-31T05:00:48+00:00",
+    "summary": "It turns out you cannot have your cake AND eat it",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "4505f5f4bd09"
+  },
+  {
+    "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+    "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-30T08:24:29+00:00",
+    "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "371b1e06db16"
+  },
+  {
+    "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+    "url": "https://latent.space/p/elorian/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-29T16:00:00+00:00",
+    "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "2df0e95472f6"
+  },
+  {
+    "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+    "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-29T05:55:19+00:00",
+    "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "8266ea920e51"
+  },
+  {
+    "title": "Why Agents Love Supabase",
+    "url": "https://latent.space/p/supabase/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-28T19:48:05+00:00",
+    "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "a075480e28a0"
+  },
+  {
+    "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+    "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-28T08:50:30+00:00",
+    "summary": "Since coding is solved, why code for the job?",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "625efce5713d"
+  },
+  {
+    "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+    "url": "https://latent.space/p/opus55/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-27T18:53:10+00:00",
+    "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "80e5637a67e1"
+  },
+  {
+    "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+    "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-27T18:40:19+00:00",
+    "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "beb92a3cbb63"
+  },
+  {
+    "title": "Coding From the Himalayas With an Offline AI Agent",
+    "url": "https://latent.space/p/offline-coding/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-27T14:41:25+00:00",
+    "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "6dd70bb9a79d"
+  },
+  {
+    "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+    "url": "https://latent.space/p/ainews-anthropic-s1/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-27T07:24:59+00:00",
+    "summary": "The S-1, the numbers, and the reactions.",
+    "tier": "longtail",
+    "signal": 88,
+    "also_on": [
+      "AIHOT · Latent Space（RSS） (88)"
+    ],
+    "extra": {},
+    "id": "95af72b561e4"
+  },
+  {
+    "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+    "url": "https://latent.space/p/ainews-kimi-31/",
+    "source": "Latent Space",
+    "kind": "rss",
+    "published": "2026-10-24T07:18:29+00:00",
+    "summary": "We have Fable at home... or so we are being told by paid shills",
+    "tier": "longtail",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "c1ad71a16e1f"
+  },
+  {
+    "title": "Was I wrong about open models & cyber risks?",
+    "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+    "source": "Interconnects",
+    "kind": "rss",
+    "published": "2026-10-30T17:36:56+00:00",
+    "summary": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "21d66635327b"
+  },
+  {
+    "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+    "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+    "source": "Interconnects",
+    "kind": "rss",
+    "published": "2026-10-28T12:58:39+00:00",
+    "summary": "A sort of review of the benchmarking industry and what's missing.",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "65e05126788d"
+  },
+  {
+    "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+    "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+    "source": "Interconnects",
+    "kind": "rss",
+    "published": "2026-10-25T11:49:00+00:00",
+    "summary": "#20",
+    "tier": "core",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "36a01b353c30"
+  },
+  {
+    "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+    "url": "https://blog.cloudflare.com/emudhra-patching/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-30T17:38:50+00:00",
+    "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "16ec2c40ac77"
+  },
+  {
+    "title": "Cloudflare services for private origins is now generally available",
+    "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-30T14:23:43+00:00",
+    "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "1c645bca188b"
+  },
+  {
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-29T12:55:00+00:00",
+    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "efe72c6018e6"
+  },
+  {
+    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+    "url": "https://blog.cloudflare.com/php-ctf/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-27T13:00:00+00:00",
+    "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "73905398b90a"
+  },
+  {
+    "title": "What took the Internet offline in Q3 2026",
+    "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-27T13:00:00+00:00",
+    "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "008876f8cd1c"
+  },
+  {
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-26T22:01:23+00:00",
+    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "95d5916fd628"
+  },
+  {
+    "title": "Origin Range Requests: Serving large files without range-request tuning",
+    "url": "https://blog.cloudflare.com/origin-range-requests/",
+    "source": "Cloudflare Blog",
+    "kind": "rss",
+    "published": "2026-10-23T18:22:59+00:00",
+    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "20d42f488708"
+  },
+  {
+    "title": "Making Failure Diagnosis Reliable with Pensive AI",
+    "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+    "source": "Netflix Tech Blog",
+    "kind": "rss",
+    "published": "2026-10-26T17:04:57+00:00",
+    "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm At Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems and compute engines such as Titus, Spark, Trino, and Druid. On peak days, roughly 100,000 workloads fail. When workloads fail, the failure itself is only the beginning. Someone still needs to find the useful signal in several logs, decide whether the cause sits in their code or the",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "8475093c4b1d"
+  },
+  {
+    "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+    "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
+    "source": "Netflix Tech Blog",
+    "kind": "rss",
+    "published": "2026-10-26T16:01:02+00:00",
+    "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple , Ranjith Kumar Shetty Introduction Clips in the Netflix mobile app. At Netflix, a crucial part of our mission is ensuring our content looks stunning on any device. Vertical formats are increasingly important for Netflix, as we have 1.2B f",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "7028f0740bab"
+  },
+  {
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+    "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4",
+    "source": "Netflix Tech Blog",
+    "kind": "rss",
+    "published": "2026-10-23T18:32:51+00:00",
+    "summary": "By Roberto Perez Alcolea , Java Platform Team Quasar connects a proposed API change with observed references in consumer repositories, giving the producer evidence for a release decision At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the sy",
+    "tier": "backend",
+    "signal": 0,
+    "also_on": [],
+    "extra": {},
+    "id": "5c4b417b27b9"
+  },
+  {
+    "title": "Anthropic S-1",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-26T13:04:50+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 1708,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50242939",
+      "comments": 1678
+    },
+    "id": "52c4e7935441"
+  },
+  {
+    "title": "Gemini 4 Carbon",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-28T17:01:23+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 1013,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50276792",
+      "comments": 801
+    },
+    "id": "6318bf62f2c5"
+  },
+  {
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-30T07:09:12+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 956,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50300683",
+      "comments": 544
+    },
+    "id": "bf5aaab63512"
+  },
+  {
+    "title": "AI promised less work. I've never worked more",
+    "url": "https://oioannou.com/blog/ai-promised-less-work/",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-27T11:08:14+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 684,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50257325",
+      "comments": 662
+    },
+    "id": "c61ee1a62651"
+  },
+  {
+    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+    "url": "https://lynchlab.net/llm-skin-cancer",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-25T17:15:38+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 670,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50233779",
+      "comments": 274
+    },
+    "id": "1dc75a32fc6a"
+  },
+  {
+    "title": "Backdoors in official Claude Code extensions",
+    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-30T11:05:53+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 655,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50302334",
+      "comments": 17
+    },
+    "id": "7e2aaf184ac3"
+  },
+  {
+    "title": "No signs of AI payoff outside the tech sector",
+    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-24T19:47:19+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 653,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50224463",
+      "comments": 678
+    },
+    "id": "6597a1303e38"
+  },
+  {
+    "title": "GPT-6.1 Terra",
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-26T18:01:17+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 637,
+    "also_on": [
+      "AIHOT · OpenAI：官网动态（RSS · 排除企业/客户案例） (86)"
+    ],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50248124",
+      "comments": 427
+    },
+    "id": "1758535ac6be"
+  },
+  {
+    "title": "AI isn't replacing SREs, it's deskilling them",
+    "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-30T15:52:18+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 633,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50305693",
+      "comments": 467
+    },
+    "id": "9e37c40a85b3"
+  },
+  {
+    "title": "LLM Voice",
+    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-29T14:57:55+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 604,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50290177",
+      "comments": 333
+    },
+    "id": "739e0b5535e3"
+  },
+  {
+    "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+    "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-27T15:28:26+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 604,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50260814",
+      "comments": 298
+    },
+    "id": "a4c44e96b0a9"
+  },
+  {
+    "title": "Claude Code regularly sends each background agent’s transcript to its model",
+    "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-29T03:33:42+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 584,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50284255",
+      "comments": 235
+    },
+    "id": "271134257c4a"
+  },
+  {
+    "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+    "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-24T23:11:54+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 546,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50226419",
+      "comments": 591
+    },
+    "id": "283aef7b5aec"
+  },
+  {
+    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "url": "https://www.brangus.io/survival-llm",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-27T19:55:06+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 542,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50264853",
+      "comments": 203
+    },
+    "id": "f6df93ac1527"
+  },
+  {
+    "title": "Dessa: Conversation Model trained only on speech",
+    "url": "https://block.xyz/dessa",
+    "source": "Hacker News",
+    "kind": "hn",
+    "published": "2026-10-23T19:09:54+00:00",
+    "summary": "",
+    "tier": "core",
+    "signal": 535,
+    "also_on": [],
+    "extra": {
+      "discussion": "https://news.ycombinator.com/item?id=50213925",
+      "comments": 199
+    },
+    "id": "2ca67924f9fc"
+  },
+  {
+    "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+    "url": "https://huggingface.co/papers/2610.32285",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-22T20:00:00+00:00",
+    "summary": "TraceTrial-Bench evaluates agent harness reliability across seven components using mechanism-oriented tasks, trajectory tracing, and failure attribution to compare harness designs and diagnose failures.",
+    "tier": "core",
+    "signal": 296,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.32285",
+      "github": "https://github.com/TraceLite-AI/TraceTrial-Bench"
+    },
+    "id": "845ad916ca3f"
+  },
+  {
+    "title": "Deep Search in Real-World Web Environments",
+    "url": "https://huggingface.co/papers/2610.30181",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-18T20:00:00+00:00",
+    "summary": "OpenDS-World introduces a live-web benchmark to evaluate autonomous multi-step deep search agents, revealing significant gaps between frontier models and human performance.",
+    "tier": "core",
+    "signal": 184,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.30181",
+      "github": "https://github.com/Yu-xm/OpenDS"
+    },
+    "id": "c78b9c094b36"
+  },
+  {
+    "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+    "url": "https://huggingface.co/papers/2610.37381",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-26T20:00:00+00:00",
+    "summary": "PDRVLA improves robot action generation by integrating a lightweight physical dynamics module that predicts future visual features with world-model supervision, avoiding online video generation latency.",
+    "tier": "core",
+    "signal": 149,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.37381",
+      "github": null
+    },
+    "id": "d4e4fc64e706"
+  },
+  {
+    "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+    "url": "https://huggingface.co/papers/2610.36729",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-26T20:00:00+00:00",
+    "summary": "Hy-Nomas is a video world model that uses causal attention and structured conditioning to generate interactive, multi-turn video segments with text and camera control.",
+    "tier": "core",
+    "signal": 126,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.36729",
+      "github": "https://github.com/Tencent-Hunyuan/Hy-Nomas"
+    },
+    "id": "247a373bfcdb"
+  },
+  {
+    "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+    "url": "https://huggingface.co/papers/2610.32749",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-22T20:00:00+00:00",
+    "summary": "Falcon is a lightweight causal audio-visual target speaker extraction method that achieves high quality with drastically reduced parameters and latency, supported by the realistic RealSSA benchmark.",
+    "tier": "core",
+    "signal": 124,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.32749",
+      "github": "https://github.com/JusperLee/Falcon"
+    },
+    "id": "a85ae40a5020"
+  },
+  {
+    "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+    "url": "https://huggingface.co/papers/2610.34073",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-24T20:00:00+00:00",
+    "summary": "Large-scale evaluation reveals that dedicated memory systems often underperform naive retrieval-augmented generation, introducing a framework of memory benefit and memory tax to assess net value.",
+    "tier": "core",
+    "signal": 119,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.34073",
+      "github": "https://github.com/hexuan21/MemoryTax"
+    },
+    "id": "1b424166c85f"
+  },
+  {
+    "title": "Work Agents: Systems, Capabilities, and Optimization",
+    "url": "https://huggingface.co/papers/2610.35845",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-25T20:00:00+00:00",
+    "summary": "The paper proposes a unified framework for work agents that integrates foundation models with runtime harnesses to execute complex digital tasks reliably, introducing dimensions of persistence and openness alongside capability families and evaluation metrics.",
+    "tier": "core",
+    "signal": 116,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.35845",
+      "github": "https://github.com/EnjunDu/awesome-working-agent"
+    },
+    "id": "28198522dcb7"
+  },
+  {
+    "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+    "url": "https://huggingface.co/papers/2610.35684",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-25T20:00:00+00:00",
+    "summary": "OmniShowcase improves subject-to-video generation by using geometry-driven training data and surface-normal conditioning to maintain 3D consistency across novel viewpoints.",
+    "tier": "core",
+    "signal": 110,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.35684",
+      "github": "https://github.com/justin4ai/OmniShowcase"
+    },
+    "id": "02c43a1d4661"
+  },
+  {
+    "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+    "url": "https://huggingface.co/papers/2610.34467",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-24T20:00:00+00:00",
+    "summary": "DynaFlow enables adaptive multi-agent collaboration by letting a main agent synthesize executable workflows that coordinate sub-agents through structured execution and verification.",
+    "tier": "core",
+    "signal": 107,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.34467",
+      "github": "https://github.com/amiya-special/Dynaflow"
+    },
+    "id": "5cecdf24f2f3"
+  },
+  {
+    "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+    "url": "https://huggingface.co/papers/2610.34662",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-25T20:00:00+00:00",
+    "summary": "StreamVibe introduces a benchmark, streaming vision-language model, and hierarchical memory harness to enable proactive, intent-aware interaction with implicit and evolving user goals.",
+    "tier": "core",
+    "signal": 105,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.34662",
+      "github": null
+    },
+    "id": "f98823f24716"
+  },
+  {
+    "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+    "url": "https://huggingface.co/papers/2610.30949",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-21T20:00:00+00:00",
+    "summary": "IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabilities.",
+    "tier": "core",
+    "signal": 101,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.30949",
+      "github": null
+    },
+    "id": "f680fcbe625c"
+  },
+  {
+    "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+    "url": "https://huggingface.co/papers/2610.36671",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-26T20:00:00+00:00",
+    "summary": "LOWN adaptively skips image processing during diffusion vision-language model decoding when predictions agree, reducing computation while preserving accuracy.",
+    "tier": "core",
+    "signal": 97,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.36671",
+      "github": "https://github.com/hyeon9698/LOWN"
+    },
+    "id": "46ae515986bc"
+  },
+  {
+    "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+    "url": "https://huggingface.co/papers/2610.24520",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-19T20:00:00+00:00",
+    "summary": "HABIT-Bench evaluates whether LLM agent memory systems can infer implicit user habits from sparse dialogue evidence and apply them correctly across long-term interactions.",
+    "tier": "core",
+    "signal": 91,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.24520",
+      "github": "https://github.com/LUMIA-Group/habit-bench"
+    },
+    "id": "048d63439141"
+  },
+  {
+    "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+    "url": "https://huggingface.co/papers/2610.36068",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-25T20:00:00+00:00",
+    "summary": "Rollback improves robot policies by using world models to rewind to past decisions, explore counterfactual actions, and generate fine-grained supervision, while continuously refining dynamics via real-world feedback.",
+    "tier": "core",
+    "signal": 89,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.36068",
+      "github": null
+    },
+    "id": "8733896d18f2"
+  },
+  {
+    "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
+    "url": "https://huggingface.co/papers/2610.34283",
+    "source": "Hugging Face Papers",
+    "kind": "paper",
+    "published": "2026-10-24T20:00:00+00:00",
+    "summary": "ChronoReplay mitigates interface lock-in in spatial vision-language models by replaying heterogeneous spatial supervision chronologically, improving cross-task transfer and enabling efficient inference-time evidence selection.",
+    "tier": "core",
+    "signal": 86,
+    "also_on": [],
+    "extra": {
+      "arxiv": "https://arxiv.org/abs/2610.34283",
+      "github": "https://github.com/yihaohu0118/ChronoReplay"
+    },
+    "id": "0d9438ead3bc"
+  },
+  {
+    "title": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-25T08:09:52+00:00",
+    "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "tier": "core",
+    "signal": 3500,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "language": "Dart"
+    },
+    "id": "97c28dfefe84"
+  },
+  {
+    "title": "wangzan101/Mika: Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "url": "https://github.com/wangzan101/Mika",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-29T14:34:07+00:00",
+    "summary": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "tier": "core",
+    "signal": 2573,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "language": "Kotlin"
+    },
+    "id": "f72111f2a530"
+  },
+  {
+    "title": "qybaihe/bla: 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+    "url": "https://github.com/qybaihe/bla",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-25T05:25:45+00:00",
+    "summary": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+    "tier": "core",
+    "signal": 1680,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "adversarial-ai",
+        "claude-code",
+        "cursor",
+        "electron-security",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "reverse-engineering",
+        "webassembly"
+      ],
+      "language": "JavaScript"
+    },
+    "id": "e8bb9b5c5c77"
+  },
+  {
+    "title": "daveebbelaar/bama: BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+    "url": "https://github.com/daveebbelaar/bama",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-24T08:44:36+00:00",
+    "summary": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+    "tier": "core",
+    "signal": 1045,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "app-clone",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "computer-use",
+        "liquid-glass",
+        "macos",
+        "macos-app",
+        "native-apps",
+        "skills",
+        "swift",
+        "swiftdata",
+        "swiftui"
+      ],
+      "language": "Swift"
+    },
+    "id": "537bd3ea8f73"
+  },
+  {
+    "title": "jackwener/DSH-Android: 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+    "url": "https://github.com/jackwener/DSH-Android",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-27T19:26:12+00:00",
+    "summary": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+    "tier": "core",
+    "signal": 616,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "ai-agent",
+        "android",
+        "deepseek",
+        "deepseek-harness",
+        "llm",
+        "phone-agent",
+        "shizuku"
+      ],
+      "language": "Kotlin"
+    },
+    "id": "82f98a0b31c2"
+  },
+  {
+    "title": "hevnsnt/CVEngine: AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+    "url": "https://github.com/hevnsnt/CVEngine",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-24T22:34:43+00:00",
+    "summary": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+    "tier": "core",
+    "signal": 545,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "ai",
+        "attack-surface-management",
+        "bbot",
+        "cybersecurity",
+        "mcp",
+        "nmap",
+        "nuclei",
+        "vulnerability-scanner"
+      ],
+      "language": "Python"
+    },
+    "id": "db8d281c1d17"
+  },
+  {
+    "title": "yjid/kensaku: Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+    "url": "https://github.com/yjid/kensaku",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-24T21:00:26+00:00",
+    "summary": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+    "tier": "core",
+    "signal": 345,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "ai-agents",
+        "desktop",
+        "desktop-search",
+        "file-search",
+        "full-text-search",
+        "launcher",
+        "local-first",
+        "mcp",
+        "ocr",
+        "open-source",
+        "privacy",
+        "rust",
+        "search",
+        "semantic-search",
+        "tauri",
+        "windows"
+      ],
+      "language": "Rust"
+    },
+    "id": "2519b65e4dae"
+  },
+  {
+    "title": "N1nEmAn/sapper-v2: Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+    "url": "https://github.com/N1nEmAn/sapper-v2",
+    "source": "GitHub new repos",
+    "kind": "repo",
+    "published": "2026-10-30T15:12:35+00:00",
+    "summary": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+    "tier": "core",
+    "signal": 334,
+    "also_on": [],
+    "extra": {
+      "topics": [
+        "ai-agents",
+        "autonomous-agents",
+        "claude-code",
+        "ctf",
+        "llm",
+        "multi-agent",
+        "pentest"
+      ],
+      "language": "Python"
+    },
+    "id": "a5af043ff573"
+  },
+  {
+    "title": "Anthropic要IPO了，帮大家总结了一下招股书里11个有趣的细节。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687831&idx=1&sn=6502cb593318d6e324e29d278fae4fcc",
+    "source": "AIHOT · 公众号：数字生命卡兹克",
+    "kind": "aihot",
+    "published": "2026-10-27T00:05:00+00:00",
+    "summary": "作者梳理了 Anthropic 提交的 IPO 招股书中的11个细节。 作者通读招股书后梳理了11个细节，涵盖收入增速、算力合同、控制权结构和公益承诺，可作了解 Anthropic 经营全貌的参考。",
+    "tier": "longtail",
+    "signal": 88,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic IPO 招股书11个细节解读：千亿募资、807亿美元亏损与7美元控股权",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "cb9009cf066c"
+  },
+  {
+    "title": "What Google and Reddit's bad days have in common",
+    "url": "https://www.platformer.news/thursday-newsletter-6/",
+    "source": "AIHOT · Platformer（热点 RSS）",
+    "kind": "aihot",
+    "published": "2026-10-30T00:51:00+00:00",
+    "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。 作者把 Google 和 Reddit 同日财报放在一起分析，指出 AI Mode 变现弱于传统搜索正在推动网站加门槛、让开放网络收缩。",
+    "tier": "longtail",
+    "signal": 86,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "946805cb053f"
+  },
+  {
+    "title": "Anthropic’s IPO filing shows $131.7B in cash and short-term investments, a bigger pile than Amazon’s or Microsoft’s.",
+    "url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
+    "source": "AIHOT · X：Rohan Paul (@rohanpaul_ai)",
+    "kind": "aihot",
+    "published": "2026-10-28T17:11:27+00:00",
+    "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。 原文整理了 IPO 文件中的现金规模与未生效租约义务数字，读者可以据此对照 Anthropic 资产与长期承诺的缺口。",
+    "tier": "longtail",
+    "signal": 85,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "a9f7caff5c00"
+  },
+  {
+    "title": "OpenAI 宣布斩获三项重大科学突破，涉及数学猜想、计算机算法及千禧年难题",
+    "url": "https://www.ithome.com/1/018/203.htm",
+    "source": "AIHOT · IT之家·人工智能",
+    "kind": "aihot",
+    "published": "2026-10-26T23:37:17.237000+00:00",
+    "summary": "OpenAI 于 10 月 27 日宣布其 AI 模型在数学、计算机科学和物理学领域取得三项研究突破。数学上给出了所有维度下局部光滑猜想的证明，从而解决挂谷猜想与斯坦因限制猜想；计算机科学上给出推翻指数时间假设（ETH）的证明，暗示相关计算任务可能有更快算法；物理学上提出量子色动力学及标准模型一种统一完备化的严格存在性证明，涉及杨–米尔斯千禧年难题的一部分。 原文梳理了三项成果的数学背景和验证方式，并注明仍待学术界独立确认，读者可据此把握证据强度。",
+    "tier": "longtail",
+    "signal": 85,
+    "also_on": [],
+    "extra": {
+      "title_zh": "OpenAI 宣布 AI 模型取得三项科学突破，涉及局部光滑猜想、指数时间假设与杨–米尔斯理论",
+      "category": "ai-models",
+      "permalink": null
+    },
+    "id": "c261b4b5c393"
+  },
+  {
+    "title": "Working with academic communities to build scientific understanding",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "source": "AIHOT · OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "kind": "aihot",
+    "published": "2026-10-26T00:00:00+00:00",
+    "summary": "OpenAI 宣布其模型在调和分析、复杂度理论和量子场论方面取得三项成果，包括证明各维度的 local smoothing 猜想（进而解决 Kakeya 猜想与 Stein 限制猜想）、在 Lean 中验证 ETH 为假、以及给出 QCD 与纯 Yang–Mills 理论的严格存在性证明。 原文由当事方直接披露三项数学成果和三种外部协作发布模式，读者可据此了解其结果透明度与验证安排。",
+    "tier": "longtail",
+    "signal": 85,
+    "also_on": [],
+    "extra": {
+      "title_zh": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
+      "category": "paper",
+      "permalink": null
+    },
+    "id": "f16aefe89a6e"
+  },
+  {
+    "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+    "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+    "source": "AIHOT · TechCrunch：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-27T23:34:27+00:00",
+    "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。 诉讼细节与 27 万条聊天记录呈现 GPT-4o 削药劝导过程，也暴露 OpenAI Model Spec 中医疗建议限制弱于版权规则的问题。",
+    "tier": "longtail",
+    "signal": 84,
+    "also_on": [],
+    "extra": {
+      "title_zh": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "a2f907c053da"
+  },
+  {
+    "title": "“Black October” for AI Developer Platforms",
+    "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+    "source": "AIHOT · Wiz：Research（安全研究）",
+    "kind": "aihot",
+    "published": "2026-10-30T22:51:44+00:00",
+    "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。 Wiz 将十起平台安全事件连成一条线索，并用两个被盗密钥的滥用案例展示 LLMJacking 的变现链条。",
+    "tier": "longtail",
+    "signal": 83,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
+      "category": "paper",
+      "permalink": null
+    },
+    "id": "4bdccd60bfbc"
+  },
+  {
+    "title": "Cracks are emerging in the AI spending boom",
+    "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+    "source": "AIHOT · TechCrunch：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-30T21:17:40+00:00",
+    "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。 原文汇总四大科技公司的资本开支与自由现金流数据，可帮读者理解投资者为何开始担忧 AI 基建投入的回报。",
+    "tier": "longtail",
+    "signal": 83,
+    "also_on": [],
+    "extra": {
+      "title_zh": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "07912041c313"
+  },
+  {
+    "title": "Anthropic is asking Wall Street to believe in AGI",
+    "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+    "source": "AIHOT · The Verge：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-29T14:00:00+00:00",
+    "summary": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。 SemiAnalysis 分析师拆解 Anthropic S-1，给出了推理毛利、每兆瓦收入、客户支出结构等一手财务细节。",
+    "tier": "longtail",
+    "signal": 83,
+    "also_on": [],
+    "extra": {
+      "title_zh": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
+      "category": "opinion",
+      "permalink": null
+    },
+    "id": "01b61253f2f1"
+  },
+  {
+    "title": "Anthropic要IPO了，帮大家总结了一下招股书里11个有趣的细节。",
+    "url": "https://x.com/Khazix0918/status/2114878401190506902",
+    "source": "AIHOT · X：卡兹克 (@Khazix0918)",
+    "kind": "aihot",
+    "published": "2026-10-27T00:34:38+00:00",
+    "summary": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。 作者通读招股书后拆解了收入增速、算力合同、股权结构和公益机制等细节，读者可以借此低成本了解这份文件里不直观的关键信息。",
+    "tier": "longtail",
+    "signal": 83,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "75e6cdb57059"
+  },
+  {
+    "title": "阿里巴巴与Apple达成合作，将千问集成至Apple智能",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247489416&idx=1&sn=9525f61df8086fcd6fe4d4183da068de",
+    "source": "AIHOT · 公众号：千问APP（阿里）",
+    "kind": "aihot",
+    "published": "2026-10-31T00:03:47+00:00",
+    "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。 官方宣布合作细节与开放时间线，中国用户可据此了解千问将以何种方式进入 iPhone 的系统级体验。",
+    "tier": "longtail",
+    "signal": 82,
+    "also_on": [],
+    "extra": {
+      "title_zh": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "27fd44712f4e"
+  },
+  {
+    "title": "Is Anthropic Worth $2 Trillion?",
+    "url": "https://every.to/napkin-math/is-anthropic-worth-2-trillion",
+    "source": "AIHOT · Every：最新文章（网页）",
+    "kind": "aihot",
+    "published": "2026-10-25T16:00:00+00:00",
+    "summary": "The Leverage 创始人 Evan Armstrong 首次拆解 Anthropic 的 S-1 文件，评估其 2 万亿美元估值目标是否合理。核心数据包括累计融资 1411 亿美元、Q2 2026 收入 116 亿美元、约 900% 的净收入留存，以及 76% 的 2025 年收入来自约 1500 家年付费 10 万美元以上的企业客户。 作者基于 Anthropic S-1 数据拆解收入结构、毛利率口径与算力承诺，给出理解这家 2 万亿美元估值公司需相信什么的分析框架。",
+    "tier": "longtail",
+    "signal": 82,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Evan Armstrong 解析 Anthropic S-1：2 万亿美元估值是否成立",
+      "category": "opinion",
+      "permalink": null
+    },
+    "id": "3d9bc72c6bc8"
+  },
+  {
+    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+    "url": "https://huggingface.co/blog/mistral-large4",
+    "source": "AIHOT · Hugging Face 官方团队博客",
+    "kind": "aihot",
+    "published": "2026-10-29T00:00:00+00:00",
+    "summary": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。 原文给出架构细节、网络安全能力分数和各硬件实测吞吐，读者可据此评估该开源权重大模型的部署门槛与适用场景。",
+    "tier": "longtail",
+    "signal": 81,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+      "category": "ai-models",
+      "permalink": null
+    },
+    "id": "a1765f446c5b"
+  },
+  {
+    "title": "Claude AI 找漏洞实战：安卓手机锁屏下提取照片、53 分钟攻破 Linux 获取最高权限",
+    "url": "https://www.ithome.com/1/019/268.htm",
+    "source": "AIHOT · IT之家·人工智能",
+    "kind": "aihot",
+    "published": "2026-10-28T22:35:25.040000+00:00",
+    "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。 原文梳理了五条攻击链的关键数字和影响范围，读者可据此评估 AI 自主挖掘漏洞的实际能力边界。",
+    "tier": "longtail",
+    "signal": 81,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+      "category": "paper",
+      "permalink": null
+    },
+    "id": "826852d41942"
+  },
+  {
+    "title": "US tech stocks see sharp falls over AI cost fears",
+    "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+    "source": "AIHOT · Hacker News：AI 热帖",
+    "kind": "aihot",
+    "published": "2026-10-30T14:50:37.797000+00:00",
+    "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。 报道整合了本周多家巨头的股价、市值损失和支出数字，可看出市场对 AI 投入回报的担忧正在集中兑现。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "41a783f21e16"
+  },
+  {
+    "title": "Google value plunges by $500B as AI fears rattle Wall Street",
+    "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+    "source": "AIHOT · Hacker News：AI 热帖",
+    "kind": "aihot",
+    "published": "2026-10-29T21:29:51.580000+00:00",
+    "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。 原文梳理了 Google、Amazon、Microsoft 三家财报中 AI 投入与现金流变化的具体数字，读者可对比资本市场的不同反应。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "60b3e2f69130"
+  },
+  {
+    "title": "Google's AI Mode doesn't drive traffic \"for anybody,\" Reddit CEO Huffman warns the entire web",
+    "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+    "source": "AIHOT · The Decoder：AI News（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-30T17:15:24+00:00",
+    "summary": "Reddit CEO Steve Huffman 表示 10 月 Reddit 每周流失超过 100 万来自 Google 搜索的访问，股价在业绩强劲的情况下仍下跌超 25%。他称 AI Mode 不会带来流量，Reddit 正在美国以外测试登录墙以遏制抓取，并与 AI 提供商继续数据授权谈判。 Reddit CEO 的一手数据和判断，说明 Google AI 搜索如何切断内容网站的流量，对依赖搜索的业务有普遍参考意义。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "bb4aa2fb33be"
+  },
+  {
+    "title": "Anthropic’s financials are surprisingly strong",
+    "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
+    "source": "AIHOT · Timothy B. Lee：Understanding AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-29T19:10:41+00:00",
+    "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。 作者通读 Anthropic 公开的 S-1 文件，用现金流和季度收入数据说明其财务状况与算力承诺之间的张力。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "a03a5f4a210c"
+  },
+  {
+    "title": "Anthropic’s business plan: Build God or die trying",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+    "source": "AIHOT · The Verge：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-29T13:30:00+00:00",
+    "summary": "The Verge 作者分析 Anthropic S-1，认为其商业模式依赖高速增长：2026 上半年营收同比增长 14 倍至 $16.3 billion，净收入留存率 900%，但不可撤销采购承诺合计 $265.6 billion，加上未开始的租赁协议 $321.4 billion 及其他协议，未来 20 年承诺至少约 $850 billion。 作者基于 Anthropic S-1 拆解其约 8500 亿美元 compute 承诺与增长压力，指出该公司商业模式押注递归自我改进。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "The Verge 解读 Anthropic S-1：约 8500 亿美元 compute 承诺押注递归自我改进",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "113fb4594f86"
+  },
+  {
+    "title": "Google's AI search problem finally shows up in the earnings report, some investors believe",
+    "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+    "source": "AIHOT · The Decoder：AI News（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-29T10:16:34+00:00",
+    "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。 文章把 Google 财报数据与 AI 搜索变现压力联系起来，读者可以借此核对市场担忧与官方说法之间的差距。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "d7766a294965"
+  },
+  {
+    "title": "Exit Liquidity",
+    "url": "https://www.wheresyoured.at/exit-liquidity/",
+    "source": "AIHOT · Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-28T17:51:00+00:00",
+    "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。 作者基于 Anthropic S-1 逐项拆解其逾 4300 亿美元不可撤销算力承诺与收入结构风险，可用于对照招股书原文核实。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+      "category": "opinion",
+      "permalink": null
+    },
+    "id": "5b7b1ab4792f"
+  },
+  {
+    "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+    "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+    "source": "AIHOT · TechCrunch：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-28T01:15:28+00:00",
+    "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。 文章依据 Anthropic S-1 拆解各股东持股结构，说明为何战略投资者而非 VC 是 IPO 最大受益方，并提示云厂商利益冲突。",
+    "tier": "longtail",
+    "signal": 80,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "1b16f2a2a47a"
+  },
+  {
+    "title": "AI 基建掀起军备竞赛：微软、谷歌、甲骨文等巨头承诺投入超 3 万亿美元",
+    "url": "https://www.ithome.com/1/020/632.htm",
+    "source": "AIHOT · IT之家·人工智能",
+    "kind": "aihot",
+    "published": "2026-10-31T15:56:00.987000+00:00",
+    "summary": "据彭博社10月31日报道，Alphabet、Meta、微软、亚马逊和甲骨文五大巨头承诺未来数年在数据中心等领域投入超过3万亿美元（约20.01万亿元人民币）。其中谷歌支出承诺超1万亿美元、接近一年前的八倍，Meta超8,000亿美元且近半用于最长分30年支付的租约；甲骨文是首家因投资AI数据中心而自由现金流转负的大型科技公司，预计到2028年恢复正自由现金流。 原文汇总五巨头财报披露的支出承诺构成和自由现金流变化，读者可以据此看清各家AI基建投入的规模差异与回收压力。",
+    "tier": "longtail",
+    "signal": 79,
+    "also_on": [],
+    "extra": {
+      "title_zh": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "74269015f3d6"
+  },
+  {
+    "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+    "source": "AIHOT · The Verge：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-27T16:51:22+00:00",
+    "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。 文章拆解了 Anthropic IPO 文件中的长期受益信托和 Founder LLC 等机制，并引用多位法学专家指出这些安全护盾的边界与隐患。",
+    "tier": "longtail",
+    "signal": 79,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "40066215b8c1"
+  },
+  {
+    "title": "We Took over ChatGPT Accounts",
+    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "source": "AIHOT · Hacker News：AI 热帖",
+    "kind": "aihot",
+    "published": "2026-10-27T16:00:00+00:00",
+    "summary": "Parameter 团队披露一种针对 ChatGPT 的 XSS 攻击链：攻击者发布含交互图表和 HTML Preview 的公开分享对话，借助 MathLive 键盘布局消息未验证来源、innerHTML 注入无沙箱 iframe、YouTube oEmbed JSONP 绕过 CSP，使 JavaScript 以 chatgpt.com 身份在受害者登录会话中运行。 作者第一手复现完整攻击链并给出时间线与修复过程，读者可以借此理解沙箱隔离为何会在跨组件组合下失效。",
+    "tier": "longtail",
+    "signal": 79,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Parameter 安全研究：公开 ChatGPT 分享链接可在受害者登录会话中执行任意代码",
+      "category": "paper",
+      "permalink": null
+    },
+    "id": "a9ce9215ef28"
+  },
+  {
+    "title": "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics",
+    "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+    "source": "AIHOT · The Decoder：AI News（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-27T12:37:24+00:00",
+    "summary": "The Decoder 报道 OpenAI 请外部专家担任\"shepherds\"核查其 AI 在计算机科学、数学和物理学领域的三项证明结果，并将部分证明翻译成 Lean 供计算机逐步验证。 文章梳理了三项数学级结果与专家核查安排，并点出 Lean 只能验证形式化陈述这一局限。",
+    "tier": "longtail",
+    "signal": 79,
+    "also_on": [],
+    "extra": {
+      "title_zh": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "6ddafbb06d25"
+  },
+  {
+    "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+    "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+    "source": "AIHOT · TechCrunch：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-29T23:42:22+00:00",
+    "summary": "Amazon CEO Andy Jassy 在周四的季度财报电话会议上表示，AWS 未来五到十年内可以成为年营收万亿美元的业务，2026 年现金 capex 预计约 2200 亿美元，大部分投向 AWS，2027 年还将大幅增加。 原文给出 AWS 最新财报数字、2026 约 2200 亿美元 capex 计划和 Jassy 的万亿营收时间表，可帮助读者判断云厂商 AI 投入节奏。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "720b04b8c5b9"
+  },
+  {
+    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "source": "AIHOT · TechCrunch：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-31T01:20:05+00:00",
+    "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建设的数据中心担保数十亿美元债务融资，Anthropic 已就首栋建筑签署 446 亿美元合同。 报道梳理了 Nvidia 或将为 Nscale 数据中心债务担保的结构与风险背景，读者可借此理解 AI 基建融资链条中的连带风险。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "c6b2d3ea7917"
+  },
+  {
+    "title": "How we detect frontier model misalignment",
+    "url": "https://alignment.openai.com/how-we-detect-frontier-model-misalignment/",
+    "source": "AIHOT · OpenAI：Alignment 研究博客（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-29T16:00:00+00:00",
+    "summary": "OpenAI 在 Alignment 博客介绍其针对前沿模型（如 GPT-6 Astra）的多层失对齐监控系统，覆盖训练、评估、内部使用和部分外部部署。 OpenAI 公开了内部失对齐监控系统的分层架构、检出率数据和红队结果，读者可以据此了解前沿模型监控的实际做法与局限。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "OpenAI 详解如何监控前沿模型的失对齐行为",
+      "category": "paper",
+      "permalink": null
+    },
+    "id": "7d9e1dc6c1e5"
+  },
+  {
+    "title": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%.",
+    "url": "https://x.com/sundarpichai/status/2115535455156642066",
+    "source": "AIHOT · X：Sundar Pichai (@sundarpichai)",
+    "kind": "aihot",
+    "published": "2026-10-28T20:05:31+00:00",
+    "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。 官方披露 Q3 财务与 AI 业务数据，可据此了解 Google Cloud 增速、模型 API token 处理量等一手经营指标。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "841f88c40f1c"
+  },
+  {
+    "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+    "source": "AIHOT · GitHub Blog",
+    "kind": "aihot",
+    "published": "2026-10-28T16:07:40+00:00",
+    "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。 GitHub 用自家遥测数据量化了智能体参与开发的程度，从 PR 占比、模型轮换到行业分布都给出可核对的数字。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "85daa6a85474"
+  },
+  {
+    "title": "Anthropic 的 S-1 写着 90% 增量毛利，卖一美元推理只花一毛",
+    "url": "https://x.com/SaitoWu/status/2115376256929948006",
+    "source": "AIHOT · X：Saito 硬地骇客 (@SaitoWu)",
+    "kind": "aihot",
+    "published": "2026-10-28T09:32:56+00:00",
+    "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。 作者拆解了 SemiAnalysis 播客对 Anthropic S-1 的解读，把毛利、留存和算力承诺等关键数字整理成一份可对照的参考。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "448f123bbaa5"
+  },
+  {
+    "title": "Silicon Valley wants you to invest in miracles",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+    "source": "AIHOT · The Verge：AI（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-30T13:11:05+00:00",
+    "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。 文章把 Anthropic 的 335 页 S-1 与 Apple、Facebook、WeWork 的招股书对比，梳理硅谷宏大叙事如何进入华尔街招股文本。",
+    "tier": "longtail",
+    "signal": 78,
+    "also_on": [],
+    "extra": {
+      "title_zh": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "8bf6d6694350"
+  },
+  {
+    "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
+    "url": "https://www.ithome.com/1/020/444.htm",
+    "source": "AIHOT · IT之家·人工智能",
+    "kind": "aihot",
+    "published": "2026-10-31T03:25:09.697000+00:00",
+    "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。 报道披露了 Anthropic 招股文件中的表外债务细节，可帮助读者理解 AI 基建支出与资产负债表之间的差距。",
+    "tier": "longtail",
+    "signal": 77,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+      "category": "industry",
+      "permalink": null
+    },
+    "id": "d7e690a6c2dd"
+  },
+  {
+    "title": "AI can turn public security fixes into working exploits before users receive an update",
+    "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+    "source": "AIHOT · Epoch AI：Gradient Updates（RSS）",
+    "kind": "aihot",
+    "published": "2026-10-30T12:07:16+00:00",
+    "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。 Epoch AI 用自建实验给出量化数据，展示开源权重模型如何在补丁窗口期内低成本复现漏洞利用，并给出缩短发布周期的防御建议。",
+    "tier": "longtail",
+    "signal": 77,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+      "category": "paper",
+      "permalink": null
+    },
+    "id": "6e7a037d77f2"
+  },
+  {
+    "title": "Mistral Le Chonk can now run locally!",
+    "url": "https://x.com/UnslothAI/status/2115812784189620265",
+    "source": "AIHOT · X：Unsloth (@UnslothAI)",
+    "kind": "aihot",
+    "published": "2026-10-29T14:27:32+00:00",
+    "summary": "Unsloth 发布 Mistral Le Chonk（Mistral Large 4，1T 参数 MoE，52B 激活）的 Dynamic 1-bit GGUF，可在 Mac Studio 上本地运行，保留 91% top-1 准确率，体积约 233GB（较 1.1TB FP8 小 80%）。图为各量化档位给出硬件需求，1-bit 需 256-270GB 内存，最小 UD-IQ1_S 约占 233GB 磁盘，并支持文本与图像输入、1M 上下文和 160+ 语言。GGUF 与指南见 huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF 和 unsloth.ai/docs/models/mistral-large-4。 原文给出在 Mac Studio 上本地运行 1T 参数模型的量化方案和硬件需求表，读者可直接照做部署。",
+    "tier": "longtail",
+    "signal": 77,
+    "also_on": [],
+    "extra": {
+      "title_zh": "Unsloth 发布 Mistral Le Chonk 1-bit GGUF 量化版，可本地运行 1T 参数模型",
+      "category": "ai-products",
+      "permalink": null
+    },
+    "id": "c986d31b8f59"
+  }
+]
